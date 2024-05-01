@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./ABDLandingPage.css";
 import logo from './assets/logo.svg';
 import heroBanner from './assets/hero_banner.svg';
+import cart from './assets/cart.svg';
 import buildingExtendedTeam from './assets/building_extended_team.svg';
 import leaderShipHiring from './assets/leaderShip_hiring.svg';
 import thirdPartyArrangement from './assets/thirdParty_arrangement.svg';
@@ -125,7 +126,7 @@ const ABDLandingPage = () => {
               <div className="cart" onClick={onCartContainerClick}>
                 <div className="career">Cart</div>
                 <div className="cart-icon">
-                  <img className="vector-icon3" alt="" src="/vector2.svg" />
+                  <img className="vector-icon3" alt="" src={cart} />
                   <div className="wrapper">
                     <div className="career">0</div>
                   </div>
