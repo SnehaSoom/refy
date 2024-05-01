@@ -1,0 +1,222 @@
+.pricing7 {
+  align-self: stretch;
+  position: relative;
+}
+.here-banner-data5 {
+  position: absolute;
+  top: 135.5px;
+  left: 0;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vecteezy-letter-a-c-b-creative-icon5 {
+  width: 38px;
+  position: relative;
+  height: 36px;
+  object-fit: contain;
+}
+.ab-dummy-pte5 {
+  position: relative;
+}
+.vecteezy-letter-a-c-b-creative-parent3 {
+  width: 234px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.about-us8 {
+  cursor: pointer;
+}
+.about-us8,
+.career8 {
+  position: relative;
+  line-height: 8px;
+}
+.vector-icon29 {
+  width: 12px;
+  position: relative;
+  height: 6px;
+  object-fit: contain;
+  display: none;
+}
+.layout5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  cursor: pointer;
+}
+.vector-icon31,
+.wrapper4 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon31 {
+  height: 92.39%;
+  width: 100%;
+  top: 7.61%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.wrapper4 {
+  top: 0;
+  left: 8.4px;
+  border-radius: var(--br-xs);
+  background-color: var(--heading-text);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-10xs);
+}
+.cart-icon5 {
+  width: 25.5px;
+  position: relative;
+  height: 27.6px;
+  font-size: var(--font-size-2xs);
+  color: var(--white);
+}
+.cart12 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-deepskyblue-200);
+  border: 1px solid var(--color-deepskyblue-100);
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.cart12,
+.header5,
+.menu5 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu5 {
+  justify-content: flex-end;
+  gap: var(--gap-21xl);
+  font-size: var(--body-2-size);
+  color: var(--heading-text);
+  font-family: var(--body-2);
+}
+.header5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--white);
+  width: 1399.5px;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+}
+.hero-banner7 {
+  width: 1400px;
+  position: relative;
+  height: 232.5px;
+}
+.text {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+  font-weight: 600;
+}
+.content {
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-xs);
+}
+.cell,
+.content,
+.row {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cell {
+  flex: 1;
+  background-color: var(--color-gray-100);
+  border-top: 1px solid var(--color-silver);
+  border-left: 1px solid var(--color-silver);
+  flex-direction: column;
+}
+.row {
+  background-color: var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+}
+.text4 {
+  flex: 1;
+  position: relative;
+  line-height: 130%;
+}
+.cell4 {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-gray-200);
+  border-top: 1px solid var(--color-silver);
+  border-left: 1px solid var(--color-silver);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cell4,
+.table,
+.table-1 {
+  flex-direction: column;
+}
+.table {
+  align-self: stretch;
+  border-radius: 4px;
+  background-color: var(--white);
+  border: 1px solid var(--color-silver);
+  overflow: hidden;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.table-1 {
+  width: 1400px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.abd-pricing,
+.hero-banner-parent1,
+.table-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-banner-parent1 {
+  width: 1400px;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.abd-pricing {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-22xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--heading-text);
+  font-family: var(--heading-3);
+}

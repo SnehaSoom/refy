@@ -1,0 +1,201 @@
+.about-us6 {
+  align-self: stretch;
+  position: relative;
+}
+.here-banner-data4 {
+  position: absolute;
+  top: 135.5px;
+  left: 0;
+  width: 1400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vecteezy-letter-a-c-b-creative-icon4 {
+  width: 38px;
+  position: relative;
+  height: 36px;
+  object-fit: contain;
+}
+.ab-dummy-pte4 {
+  position: relative;
+}
+.vecteezy-letter-a-c-b-creative-parent2 {
+  width: 234px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.about-us7 {
+  cursor: pointer;
+}
+.about-us7,
+.career7 {
+  position: relative;
+  line-height: 8px;
+}
+.vector-icon26 {
+  width: 12px;
+  position: relative;
+  height: 6px;
+  object-fit: contain;
+  display: none;
+}
+.layout4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  cursor: pointer;
+}
+.vector-icon28,
+.wrapper3 {
+  position: absolute;
+  overflow: hidden;
+}
+.vector-icon28 {
+  height: 92.39%;
+  width: 100%;
+  top: 7.61%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.wrapper3 {
+  top: 0;
+  left: 8.4px;
+  border-radius: var(--br-xs);
+  background-color: var(--heading-text);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-10xs);
+}
+.cart-icon4 {
+  width: 25.5px;
+  position: relative;
+  height: 27.6px;
+  font-size: var(--font-size-2xs);
+  color: var(--white);
+}
+.cart10 {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-deepskyblue-200);
+  border: 1px solid var(--color-deepskyblue-100);
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.cart10,
+.header4,
+.menu4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.menu4 {
+  justify-content: flex-end;
+  gap: var(--gap-21xl);
+  font-size: var(--body-2-size);
+  color: var(--heading-text);
+  font-family: var(--body-2);
+}
+.header4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--white);
+  width: 1399.5px;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-xl) 0;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--heading-4-size);
+  color: var(--color-black);
+}
+.hero-banner6 {
+  width: 1400px;
+  position: relative;
+  height: 232.5px;
+  text-align: center;
+  font-size: var(--font-size-61xl);
+  color: var(--heading-text);
+  font-family: var(--heading-3);
+}
+.lorem-ipsum-dolor18 {
+  width: 679px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  height: 452px;
+  flex-shrink: 0;
+}
+.lorem-ipsum-dolor-sit-amet-con-wrapper {
+  width: 679px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child5 {
+  width: 680px;
+  position: relative;
+  height: 449px;
+  object-fit: cover;
+}
+.frame-parent3 {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.lorem-ipsum-dolor19 {
+  margin: 0;
+}
+.lorem-ipsum-dolor-container7 {
+  width: 100%;
+}
+.lorem-ipsum-dolor-container6 {
+  width: 1400px;
+  position: relative;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+}
+.abd-about-us,
+.hero-banner-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hero-banner-container {
+  width: 1400px;
+  flex-direction: column;
+  gap: var(--gap-41xl);
+}
+.abd-about-us {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-22xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-1-size);
+  color: var(--text-color);
+  font-family: var(--body-2);
+}
