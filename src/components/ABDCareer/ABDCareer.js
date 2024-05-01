@@ -1,6 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ABDCareer.css";
+import logo from '../ABDLandingPage/assets/logo.svg'
+import cart from '../ABDLandingPage/assets/cart.svg'
+import search from './search.svg'
 
 const ABDCareer = () => {
   const navigate = useNavigate();
@@ -42,9 +45,9 @@ const ABDCareer = () => {
               onClick={onFrameContainerClick}
             >
               <img
-                className="vecteezy-letter-a-c-b-creative-icon2"
+                className="creative-icon"
                 alt=""
-                src="/vecteezy-letteracbcreativelineartmodernuniquemonogramlogo-27768920-1@2x.png"
+                src={logo}
               />
               <b className="filter">AB Dummy Ptv. Ltd</b>
             </div>
@@ -66,7 +69,7 @@ const ABDCareer = () => {
               <div className="cart6" onClick={onCartContainerClick}>
                 <div className="career5">Cart</div>
                 <div className="cart-icon2">
-                  <img className="vector-icon12" alt="" src="/vector2.svg" />
+                <img className="vector-icon3" alt="" src={cart} />
                   <div className="wrapper1">
                     <div className="career5">0</div>
                   </div>
@@ -82,7 +85,7 @@ const ABDCareer = () => {
                 <b className="filter">Filter</b>
                 <div className="search">
                   <div className="search-child" />
-                  <img className="uilsearch-icon" alt="" src="/uilsearch.svg" />
+                  <img className="uilsearch-icon" alt="" src={search} />
                 </div>
               </div>
             </div>

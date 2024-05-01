@@ -1,6 +1,8 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ABDCart.css";
+import logo from '../ABDLandingPage/assets/logo.svg'
+import cart from '../ABDLandingPage/assets/cart.svg'
 
 const ABDCart = () => {
   const navigate = useNavigate();
@@ -42,9 +44,9 @@ const ABDCart = () => {
               onClick={onFrameContainerClick}
             >
               <img
-                className="vecteezy-letter-a-c-b-creative-icon6"
+                className="creative-icon"
                 alt=""
-                src="/vecteezy-letteracbcreativelineartmodernuniquemonogramlogo-27768920-1@2x.png"
+                src={logo}
               />
               <b className="ab-dummy-pte6">AB Dummy Ptv. Ltd</b>
             </div>
@@ -66,7 +68,7 @@ const ABDCart = () => {
               <div className="cart15" onClick={onCartContainerClick}>
                 <div className="career9">Cart</div>
                 <div className="cart-icon6">
-                  <img className="vector-icon34" alt="" src="/vector2.svg" />
+                  <img className="vector-icon34" alt="" src={cart} />
                   <div className="wrapper5">
                     <div className="career9">0</div>
                   </div>

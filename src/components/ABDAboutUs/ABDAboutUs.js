@@ -1,7 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ABDAboutUs.css";
-
+import logo from '../ABDLandingPage/assets/logo.svg'
+import cart from '../ABDLandingPage/assets/cart.svg'
+import aboutUs from './about_us.svg'
 const ABDAboutUs = () => {
   const navigate = useNavigate();
 
@@ -42,9 +44,9 @@ const ABDAboutUs = () => {
               onClick={onFrameContainerClick}
             >
               <img
-                className="vecteezy-letter-a-c-b-creative-icon4"
+                className="creative-icon"
                 alt=""
-                src="/vecteezy-letteracbcreativelineartmodernuniquemonogramlogo-27768920-1@2x.png"
+                src={logo}
               />
               <b className="ab-dummy-pte4">AB Dummy Ptv. Ltd</b>
             </div>
@@ -66,7 +68,7 @@ const ABDAboutUs = () => {
               <div className="cart10" onClick={onCartContainerClick}>
                 <div className="career7">Cart</div>
                 <div className="cart-icon4">
-                  <img className="vector-icon28" alt="" src="/vector2.svg" />
+                <img className="vector-icon3" alt="" src={cart} />
                   <div className="wrapper3">
                     <div className="career7">0</div>
                   </div>
@@ -92,7 +94,7 @@ const ABDAboutUs = () => {
               tristique lacinia eleifend ac luctus suspendisse ut pellentesque.
             </div>
           </div>
-          <img className="frame-child5" alt="" src="/rectangle-80@2x.png" />
+          <img className="frame-child5" alt="" src={aboutUs} />
         </div>
         <div className="lorem-ipsum-dolor-container6">
           <span className="lorem-ipsum-dolor-container7">

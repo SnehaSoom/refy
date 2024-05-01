@@ -1,6 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ABDContactUs.css";
+import logo from '../ABDLandingPage/assets/logo.svg'
+import cart from '../ABDLandingPage/assets/cart.svg'
+import aboutUs from '../ABDAboutUs/about_us.svg'
 
 const ABDContactUs = () => {
   const navigate = useNavigate();
@@ -42,9 +45,9 @@ const ABDContactUs = () => {
               onClick={onFrameContainerClick}
             >
               <img
-                className="vecteezy-letter-a-c-b-creative-icon3"
+                className="creative-icon"
                 alt=""
-                src="/vecteezy-letteracbcreativelineartmodernuniquemonogramlogo-27768920-1@2x.png"
+                src={logo}
               />
               <b className="ab-dummy-pte3">AB Dummy Ptv. Ltd</b>
             </div>
@@ -66,7 +69,7 @@ const ABDContactUs = () => {
               <div className="cart8" onClick={onCartContainerClick}>
                 <div className="career6">Cart</div>
                 <div className="cart-icon3">
-                  <img className="vector-icon24" alt="" src="/vector2.svg" />
+                <img className="vector-icon3" alt="" src={cart} />
                   <div className="wrapper2">
                     <div className="career6">0</div>
                   </div>
@@ -97,10 +100,18 @@ const ABDContactUs = () => {
               </div>
             </div>
           </div>
-          <img className="frame-child3" alt="" src="/rectangle-80@2x.png" />
+          <img className="frame-child3" alt="" src={aboutUs} />
         </div>
         <div className="rectangle-parent4">
-          <img className="frame-child3" alt="" src="/rectangle-81@2x.png" />
+        <iframe
+            title="Google Map"
+            className="google-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.9124252799914!2dYOUR_LONGITUDE!3dYOUR_LATITUDE!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDU4JzU5LjAiTiA3NsKwMTknMDAuMCJF!5e0!3m2!1sen!2sus!4v1626863654958!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
           <div className="address-lorem-ipsum-container">
             <p className="address">Address</p>
             <p className="address">&nbsp;</p>

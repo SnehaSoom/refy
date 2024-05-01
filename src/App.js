@@ -6,13 +6,12 @@ import {
   useLocation,
 } from "react-router-dom";
 import ABDLandingPage from "./components/ABDLandingPage/ABDLandingPage";
-import ABDLandingPageV from "./components/ABDLandingPageV/ABDLandingPageV";
 import ABDCareer from "./components/ABDCareer/ABDCareer";
 import ABDContactUs from "./components/ABDContactUs/ABDContactUs";
 import ABDAboutUs from "./components/ABDAboutUs/ABDAboutUs";
 import ABDPricing from "./components/ABDPricing/ABDPricing";
 import ABDCart from "./components/ABDCart/ABDCart";
-import Typography from "./components/Typography/Typography";
+
 
 function App() {
   const action = useNavigationType();
@@ -81,14 +80,12 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<ABDLandingPage />} />
-      <Route path="/abdlandingpagev2" element={<ABDLandingPageV />} />
-      <Route path="/abdcareer" element={<ABDCareer />} />
+           <Route path="/abdcareer" element={<ABDCareer />} />
       <Route path="/abdcontactus" element={<ABDContactUs />} />
       <Route path="/abdaboutus" element={<ABDAboutUs />} />
       <Route path="/abdpricing" element={<ABDPricing />} />
       <Route path="/abdcart" element={<ABDCart />} />
-      <Route path="/typography" element={<Typography />} />
-    </Routes>
+          </Routes>
   );
 }
 export default App;
