@@ -65,12 +65,11 @@
 }
 .hero-banner-image {
   position: absolute;
- 
-  width: 68.08%;
-  top: 585px;
+width: 60%;
+  top: 620px;
   right: 0;
   bottom: 0;
-  left: 24.93%;
+  left:20%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -561,8 +560,7 @@
   font-family: var(--heading-3);
 }
 .abd-landing-page {
-  width: 100%;
-  position: relative;
+  width: 100%;  
   background-color: var(--white);
   height: 5809px;
   overflow: hidden;
